@@ -10,10 +10,23 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+- task: PowerPlatformToolInstaller@2
+  inputs:
+    DefaultVersion: true
+- task: PowerPlatformSetConnectionVariables@2
+  inputs:
+    authenticationType: 'PowerPlatformSPN'
+    PowerPlatformSPN: 'DevInstance'
+- task: PowerPlatformExportSolution@2
+  inputs:
+    authenticationType: 'PowerPlatformSPN'
+    PowerPlatformSPN: 'DevInstance'
+    SolutionName: 'DataverseUtilities_PdfEngine'
+    SolutionOutputFile: 'DataverseUtilities_PdfEngine.zip'
+- task: PowerPlatformUnpackSolution@2
+  inputs:
+    SolutionInputFile: 'DataverseUtilities_PdfEngine.zip'
+    SolutionTargetFolder: 'PowerAppsSolutions/DataverseUtilities_PdfEngine'
+    AsyncOperation: true
+    MaxAsyncWaitTime: '60'
 
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
