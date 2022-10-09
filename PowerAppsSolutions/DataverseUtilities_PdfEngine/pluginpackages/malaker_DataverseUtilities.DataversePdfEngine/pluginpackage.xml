@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pluginpackage
+  uniquename="malaker_DataverseUtilities.DataversePdfEngine">
+  <iscustomizable>1</iscustomizable>
+  <name>malaker_DataverseUtilities.DataversePdfEngine</name>
+  <package
+    mimetype="application/octet-stream">malaker_DataverseUtilities.DataversePdfEngine.nupkg</package>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <version>1.0.0</version>
+</pluginpackage>

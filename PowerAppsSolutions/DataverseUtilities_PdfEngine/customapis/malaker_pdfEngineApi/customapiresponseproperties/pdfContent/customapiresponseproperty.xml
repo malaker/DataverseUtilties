@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<customapiresponseproperty
+  uniquename="pdfContent">
+  <description
+    default=" base64 encoded pdf content">
+    <label
+      description=" base64 encoded pdf content"
+      languagecode="1033" />
+  </description>
+  <displayname
+    default="Pdf Engine Api-Out-pdfContent">
+    <label
+      description="Pdf Engine Api-Out-pdfContent"
+      languagecode="1033" />
+  </displayname>
+  <iscustomizable>0</iscustomizable>
+  <name>Pdf Engine Api-Out-pdfContent</name>
+  <type>10</type>
+</customapiresponseproperty>

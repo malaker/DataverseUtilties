@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<customapiresponseproperty
+  uniquename="renderedTemplate">
+  <displayname
+    default="Template Engine Api-Out-renderedTemplate">
+    <label
+      description="Template Engine Api-Out-renderedTemplate"
+      languagecode="1033" />
+  </displayname>
+  <iscustomizable>0</iscustomizable>
+  <name>Template Engine Api-Out-renderedTemplate</name>
+  <type>10</type>
+</customapiresponseproperty>

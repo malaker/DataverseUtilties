@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pluginpackage
+  uniquename="malaker_DataverseUtilities.DataverseTemplateEngine">
+  <iscustomizable>1</iscustomizable>
+  <name>malaker_DataverseUtilities.DataverseTemplateEngine</name>
+  <package
+    mimetype="application/octet-stream">malaker_DataverseUtilities.DataverseTemplateEngine.nupkg</package>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <version>1.0.0</version>
+</pluginpackage>

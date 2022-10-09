@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<customapi
+  uniquename="malaker_templateEngineApi">
+  <allowedcustomprocessingsteptype>2</allowedcustomprocessingsteptype>
+  <bindingtype>0</bindingtype>
+  <description
+    default="Template Engine Api">
+    <label
+      description="Template Engine Api"
+      languagecode="1033" />
+  </description>
+  <displayname
+    default="Template Engine Api">
+    <label
+      description="Template Engine Api"
+      languagecode="1033" />
+  </displayname>
+  <iscustomizable>1</iscustomizable>
+  <isfunction>0</isfunction>
+  <isprivate>0</isprivate>
+  <name>Template Engine Api</name>
+  <plugintypeid>
+    <plugintypeid>b7aa7883-3d46-ed11-bba2-000d3abbf074</plugintypeid>
+  </plugintypeid>
+  <workflowsdkstepenabled>1</workflowsdkstepenabled>
+</customapi>
