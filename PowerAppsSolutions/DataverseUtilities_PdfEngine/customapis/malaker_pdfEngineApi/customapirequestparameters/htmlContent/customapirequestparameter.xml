@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<customapirequestparameter
+  uniquename="htmlContent">
+  <displayname
+    default="Pdf Engine Api-In-htmlContent">
+    <label
+      description="Pdf Engine Api-In-htmlContent"
+      languagecode="1033" />
+  </displayname>
+  <iscustomizable>0</iscustomizable>
+  <isoptional>0</isoptional>
+  <name>Pdf Engine Api-In-htmlContent</name>
+  <type>10</type>
+</customapirequestparameter>

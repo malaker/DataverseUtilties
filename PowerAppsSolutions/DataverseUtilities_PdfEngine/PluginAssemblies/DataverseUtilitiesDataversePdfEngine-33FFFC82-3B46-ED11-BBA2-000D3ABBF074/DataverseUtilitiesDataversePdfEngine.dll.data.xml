@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly
+  FullName="DataverseUtilities.DataversePdfEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+  PluginAssemblyId="33fffc82-3b46-ed11-bba2-000d3abbf074"
+  CustomizationLevel="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>4</SourceType>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/DataverseUtilitiesDataversePdfEngine-33FFFC82-3B46-ED11-BBA2-000D3ABBF074/DataverseUtilitiesDataversePdfEngine.dll</FileName>
+  <PluginTypes>
+    <PluginType
+      AssemblyQualifiedName="Malaker.DataverseUtilities.DataversePdfEngine.DataversePdfEnginePlugin, DataverseUtilities.DataversePdfEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+      PluginTypeId="34fffc82-3b46-ed11-bba2-000d3abbf074"
+      Name="Malaker.DataverseUtilities.DataversePdfEngine.DataversePdfEnginePlugin">
+      <FriendlyName>{21788438-2202-4b4b-a1cb-2b06d839e7bb}</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

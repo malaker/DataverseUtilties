@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<customapirequestparameter
+  uniquename="templateModelStr">
+  <displayname
+    default="Template Engine Api-In-templateModelStr">
+    <label
+      description="Template Engine Api-In-templateModelStr"
+      languagecode="1033" />
+  </displayname>
+  <iscustomizable>0</iscustomizable>
+  <isoptional>0</isoptional>
+  <name>Template Engine Api-In-templateModelStr</name>
+  <type>10</type>
+</customapirequestparameter>
