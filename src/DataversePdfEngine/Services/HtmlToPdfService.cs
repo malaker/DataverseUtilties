@@ -1,4 +1,5 @@
-﻿using Malaker.DataverseUtilities.Common.Abstractions;
+﻿using iText.Kernel.Font;
+using Malaker.DataverseUtilities.Common.Abstractions;
 using Malaker.DataverseUtilities.DataversePdfEngine.Abstractions;
 using Malaker.DataverseUtilities.DataversePdfEngine.Engines;
 using Microsoft.Xrm.Sdk;
@@ -27,7 +28,16 @@ namespace Malaker.DataverseUtilities.DataversePdfReport
         {
             bool htmlContentExists = _context.InputParameters.Contains("htmlContent");
             bool pdfSettingsGenerationExists = _context.InputParameters.Contains("pdfSettingsGeneration");
+            try
+            {
+                
+               
 
+            }
+            catch (Exception ex)
+            {
+                _tracingService.Trace("{0}", ex.Message + ex.StackTrace);
+            }
             if (!htmlContentExists)
             {
                 throw new InvalidOperationException("htmlContent");

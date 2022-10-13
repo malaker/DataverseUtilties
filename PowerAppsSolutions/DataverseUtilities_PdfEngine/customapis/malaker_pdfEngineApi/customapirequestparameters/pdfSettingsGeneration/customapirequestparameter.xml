@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<customapirequestparameter
+  uniquename="pdfSettingsGeneration">
+  <displayname
+    default="Pdf Engine Api-In-pdfSettingsGeneration">
+    <label
+      description="Pdf Engine Api-In-pdfSettingsGeneration"
+      languagecode="1033" />
+  </displayname>
+  <iscustomizable>0</iscustomizable>
+  <isoptional>1</isoptional>
+  <name>Pdf Engine Api-In-pdfSettingsGeneration</name>
+  <type>10</type>
+</customapirequestparameter>
