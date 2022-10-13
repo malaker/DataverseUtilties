@@ -52,6 +52,7 @@ namespace DataverseUtilities.Tests.DataversePdfEngine.Tests
             var pluginContext = GetDefaultContext();
             PdfSettingsGeneration pdfSettingsGeneration = new PdfSettingsGeneration()
             {
+                FontSettings = new PdfFontSettings() { LoadPluginsFonts = true },
                 NumbericSettings = new PageNumbericSettings()
                 {
                     IsTurnedOn = true,

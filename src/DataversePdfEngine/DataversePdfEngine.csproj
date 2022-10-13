@@ -24,6 +24,14 @@
     <RootNamespace>Malaker.DataverseUtilities.DataversePdfEngine</RootNamespace>
     <AssemblyName>DataverseUtilities.DataversePdfEngine</AssemblyName>
   </PropertyGroup>
+  <ItemGroup>
+    <None Remove="helvetica.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Fonts\helvetica.ttf" CopyToOutputDirectory="Always">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="itext7" Version="7.2.3" />
