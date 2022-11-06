@@ -1,0 +1,32 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- task: PowerPlatformToolInstaller@2
+  inputs:
+    DefaultVersion: true
+- task: PowerPlatformSetConnectionVariables@2
+  inputs:
+    authenticationType: 'PowerPlatformSPN'
+    PowerPlatformSPN: 'DevInstance'
+- task: PowerPlatformExportSolution@2
+  inputs:
+    authenticationType: 'PowerPlatformSPN'
+    PowerPlatformSPN: 'DevInstance'
+    SolutionName: 'DataverseUtilities_PdfEngine'
+    SolutionOutputFile: 'DataverseUtilities_PdfEngine.zip'
+- task: PowerPlatformUnpackSolution@2
+  inputs:
+    SolutionInputFile: 'DataverseUtilities_PdfEngine.zip'
+    SolutionTargetFolder: 'PowerAppsSolutions/DataverseUtilities_PdfEngine'
+    AsyncOperation: true
+    MaxAsyncWaitTime: '60'
+
